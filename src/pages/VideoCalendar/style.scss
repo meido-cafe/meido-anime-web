@@ -1,0 +1,30 @@
+.VideoCalendar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+
+  .calendar {
+    width: 12%;
+
+    .title {
+      margin-bottom: 20px;
+      font-size: 20px;
+    }
+
+    .videoInfo {
+      display: flex;
+      margin-bottom: 20px;
+
+      .videoImg {
+        width: 80px;
+        height: 112px;
+      }
+
+      .videoName {
+        margin-left: 5px;
+        margin-top: 5px;
+        word-break: break-all;
+      }
+    }
+  }
+}

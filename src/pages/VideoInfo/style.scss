@@ -1,0 +1,196 @@
+.VideoInfo {
+  padding: 30px 20px;
+
+  .title {
+    // padding-left: 80px;
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-weight: 600;
+
+    span {
+      margin-left: 10px;
+      font-size: 18px;
+      color: rgb(143, 143, 143);
+    }
+  }
+  .VideoInfoMain {
+    display: flex;
+    margin-top: 30px;
+    .left {
+      width: 20%;
+      .leftImg {
+        display: block;
+        width: 280px;
+        // height: 281px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+      }
+      .detailed {
+        line-height: 20px;
+        font-size: 12px;
+        border-bottom: 0.5px solid rgb(216, 216, 216);
+        letter-spacing: 1.5px;
+        color: rgb(61, 61, 61);
+
+        .detailedKey {
+          color: #000000;
+          font-weight: 500;
+        }
+      }
+    }
+    .right {
+      width: 80%;
+      .main {
+        display: flex;
+        padding: 0 20px;
+        .mainLeft {
+          width: 50%;
+          .mainTitle {
+            font-size: 22px;
+            margin-bottom: 10px;
+            font-weight: 500;
+          }
+          .chapters {
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+            border-bottom: 0.1px solid rgb(216, 216, 216);
+
+            .chaptersTitle {
+              font-size: 13px;
+              margin-bottom: 5px;
+            }
+            .chapter {
+              display: inline-block;
+              width: 30px;
+              height: 30px;
+              line-height: 30px;
+              text-align: center;
+              color: rgb(39, 103, 199);
+              border: 1px solid rgb(53, 164, 249);
+              border-right: 0px;
+              &:nth-last-child(1) {
+                border-right: 1px solid rgb(53, 164, 249);
+              }
+            }
+          }
+          .mainInfo {
+            line-height: 26px;
+            letter-spacing: 1.5px;
+          }
+
+          .tagBox {
+            padding-top: 15px;
+            margin-top: 15px;
+            border-top: 0.1px solid rgb(216, 216, 216);
+            .tagTitle {
+              font-size: 13px;
+              color: #565656;
+              margin-bottom: 10px;
+            }
+          }
+        }
+
+        .mainRight {
+          width: 50%;
+          .rightTitle {
+            font-size: 18px;
+            color: #7b7b7b;
+            margin-bottom: 20px;
+          }
+          .charactersBox {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .character {
+              width: 30%;
+              min-height: 150px;
+              display: flex;
+              align-items: flex-start;
+              margin-right: 10px;
+              font-size: 13px;
+              .characterImg {
+                width: 73px;
+                // height: 110px;
+              }
+              .characterInfo {
+                .characterName {
+                  margin-bottom: 10px;
+                }
+              }
+            }
+          }
+        }
+      }
+      .footer {
+        .rssInfoBox {
+          display: flex;
+          padding-top: 15px;
+          margin-top: 15px;
+          border-top: 0.1px solid rgb(216, 216, 216);
+
+          .SubtitleGroupLists {
+            width: 15%;
+            padding: 0 10px;
+            border-right: 0.1px solid rgb(216, 216, 216);
+
+            .SubtitleGroupTitle {
+              margin-bottom: 10px;
+              font-size: 18px;
+              text-align: center;
+            }
+            .SubtitleGroup {
+              padding: 2px 0;
+              font-size: 14px;
+              letter-spacing: 1px;
+              overflow: hidden;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+              text-align: center;
+              cursor: pointer;
+              border-top: 0.1px solid rgb(216, 216, 216);
+            }
+          }
+          .rssMain {
+            width: 60%;
+            padding: 0 10px;
+            line-height: 20px;
+            border-right: 0.1px solid rgb(216, 216, 216);
+            .rssUrl {
+              padding-bottom: 10px;
+              border-bottom: 0.1px solid rgb(216, 216, 216);
+
+              span {
+                font-size: 16px;
+              }
+            }
+            .rssInfoList {
+              display: flex;
+              align-items: center;
+              border-bottom: 0.1px solid rgb(216, 216, 216);
+              .rssInfo {
+                display: inline-block;
+                width: 80%;
+                font-size: 12px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+              }
+              .rssSize {
+                padding: 0 5px;
+                border-left: 0.1px solid rgb(216, 216, 216);
+                border-right: 0.1px solid rgb(216, 216, 216);
+                font-size: 14px;
+              }
+              .rssCopy {
+              }
+            }
+          }
+          .subscribe {
+            width: 25%;
+            padding: 0 10px;
+          }
+        }
+      }
+    }
+  }
+}
